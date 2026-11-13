@@ -106,8 +106,8 @@ export const portfolioData = {
       en: 'Assistant Data Engineer | GenAI, LLMs & Multi-Agent Systems',
     },
     drawerBio: {
-      pt: 'Engenheiro de Dados Assistente na 2RP Net (projeto Banco Digio) e estudante de ADS no SENAI-SP. Especialista em sistemas multiagente com Google ADK, Python, GCP e desenvolvimento full-stack.',
-      en: 'Assistant Data Engineer at 2RP Net (Banco Digio project) and Systems Analysis student at SENAI-SP. Focused on multi-agent systems with Google ADK, Python, GCP, and full-stack engineering.',
+      pt: 'Engenheiro de Dados Assistente na 2RP Net e estudante de ADS no SENAI-SP. Especialista em sistemas multiagente com Google ADK, Python, GCP e desenvolvimento full-stack.',
+      en: 'Assistant Data Engineer at 2RP Net and Systems Analysis student at SENAI-SP. Focused on multi-agent systems with Google ADK, Python, GCP, and full-stack engineering.',
     },
     location: 'Salto de Pirapora, SP — Brazil',
     email: 'gutucci23@gmail.com',
@@ -115,9 +115,8 @@ export const portfolioData = {
     whatsappUrl: 'https://wa.me/5515981322692',
     githubUrl: 'https://github.com/GustavoTucci',
     linkedinUrl: 'https://www.linkedin.com/in/gustavo-martinez-tucci',
-    cvUrl: '/cv-gustavo-tucci.pdf',
     // Para adicionar sua foto, salve-a em public/avatar.jpg e atualize avatarUrl para '/avatar.jpg'
-    avatarUrl: '',
+    avatarUrl: '/avatar.jpg',
     avatarAlt: {
       pt: 'Foto de perfil de Gustavo Martinez Tucci',
       en: 'Profile photo of Gustavo Martinez Tucci',
@@ -159,16 +158,12 @@ export const portfolioData = {
       en: 'ENGINEERING',
     },
     subtitle: {
-      pt: 'Engenheiro de Dados Assistente na 2RP Net (projeto Banco Digio). Construo sistemas multiagente determinísticos com Google ADK, APIs em Python/FastAPI, infraestrutura GCP e interfaces modernas.',
-      en: 'Assistant Data Engineer at 2RP Net (Banco Digio project). I build deterministic multi-agent systems with Google ADK, Python/FastAPI backends, GCP cloud pipelines, and modern web experiences.',
+      pt: 'Engenheiro de Dados Assistente na 2RP Net. Construo sistemas multiagente determinísticos com Google ADK, APIs em Python/FastAPI, infraestrutura GCP e interfaces modernas.',
+      en: 'Assistant Data Engineer at 2RP Net. I build deterministic multi-agent systems with Google ADK, Python/FastAPI backends, GCP cloud pipelines, and modern web experiences.',
     },
     ctaPrimary: {
       pt: 'Vamos Conversar',
       en: "Let's Talk",
-    },
-    ctaSecondary: {
-      pt: 'Baixar Currículo',
-      en: 'Download CV',
     },
     rotatingBadgeText: {
       pt: 'GENAI • DADOS • GOOGLE ADK • PYTHON • ',
@@ -179,8 +174,8 @@ export const portfolioData = {
       en: 'Reserved space for your professional photo (public/avatar.jpg)',
     },
     photoBadgeLabel: {
-      pt: '2RP Net · Banco Digio',
-      en: '2RP Net · Banco Digio',
+      pt: '2RP Net · Dados & GenAI',
+      en: '2RP Net · Data & GenAI',
     },
   },
 
@@ -226,8 +221,8 @@ export const portfolioData = {
       },
     },
     description: {
-      pt: 'Efetivado em menos de um ano na 2RP Net, atuo hoje na squad de Gestão Eletrônica de Documentos (GED) do Banco Digio — trabalhando com backend, integrações externas, SSO, frontend e banco de dados no GCP. Paralelamente, curso Análise e Desenvolvimento de Sistemas no SENAI-SP e lidero projetos de IA generativa e governança de modelos de Machine Learning.',
-      en: 'Promoted to full-time in under a year at 2RP Net, I currently work on Banco Digio’s Electronic Document Management (GED) squad — handling backend, external integrations, SSO, frontend, and databases on GCP. Alongside this, I study Systems Analysis & Development at SENAI-SP and lead GenAI and ML model governance projects.',
+      pt: 'Efetivado em menos de um ano na 2RP Net, atuo hoje em uma squad de Gestão Eletrônica de Documentos (GED) para o setor financeiro — trabalhando com backend, integrações externas, SSO, frontend e banco de dados no GCP. Paralelamente, curso Análise e Desenvolvimento de Sistemas no SENAI-SP e lidero projetos de IA generativa e governança de modelos de Machine Learning.',
+      en: 'Promoted to full-time in under a year at 2RP Net, I currently work on an Electronic Document Management (GED) squad for the financial sector — handling backend, external integrations, SSO, frontend, and databases on GCP. Alongside this, I study Systems Analysis & Development at SENAI-SP and lead GenAI and ML model governance projects.',
     },
     stats: [
       {
@@ -551,12 +546,12 @@ export const portfolioData = {
           pt: 'Engenheiro de Dados Assistente',
           en: 'Assistant Data Engineer',
         },
-        organization: '2RP Net · Projeto Banco Digio',
+        organization: '2RP Net · Setor Financeiro (GED)',
         location: 'Brasil',
         current: true,
         description: {
-          pt: 'Atuação na squad responsável pela aplicação de Gestão Eletrônica de Documentos (GED) do Banco Digio, conectando backend, segurança e nuvem.',
-          en: 'Member of the squad building Banco Digio’s Electronic Document Management (GED) platform, connecting backend services, security, and cloud.',
+          pt: 'Atuação na squad responsável por uma aplicação de Gestão Eletrônica de Documentos (GED) para o setor financeiro, conectando backend, segurança e nuvem.',
+          en: 'Member of the squad building an Electronic Document Management (GED) platform for the financial sector, connecting backend services, security, and cloud.',
         },
         highlights: {
           pt: [
@@ -586,11 +581,11 @@ export const portfolioData = {
         highlights: {
           pt: [
             'Desenvolvimento em equipe do sistema multiagente de análise de crédito.',
-            'Ingresso no projeto do Banco Digio ainda durante o estágio e efetivação em menos de 1 ano.',
+            'Ingresso em projeto estratégico de cliente ainda durante o estágio e efetivação em menos de 1 ano.',
           ],
           en: [
             'Co-developed the multi-agent credit risk analysis system.',
-            'Joined the Banco Digio project while still an intern and promoted to full-time in under 1 year.',
+            'Joined a strategic client project while still an intern and promoted to full-time in under 1 year.',
           ],
         },
       },
@@ -637,7 +632,6 @@ export const portfolioData = {
     },
     trustLogos: [
       { name: '2RP Net', subtitle: { pt: 'Dados & GenAI', en: 'Data & GenAI' } },
-      { name: 'Banco Digio', subtitle: { pt: 'Projeto GED', en: 'GED Project' } },
       { name: 'SENAI-SP', subtitle: { pt: 'ADS & Pesquisa', en: 'Systems Dev' } },
       { name: 'Dilly Sports', subtitle: { pt: 'Indústria 4.0', en: 'Industry 4.0' } },
       { name: 'Google ADK', subtitle: { pt: 'Multi-Agent', en: 'Multi-Agent' } },
@@ -647,12 +641,12 @@ export const portfolioData = {
       {
         id: 'testimonial-1',
         quote: {
-          pt: 'Espaço reservado para recomendação de liderança ou colega da 2RP Net — destacando sua evolução rápida do estágio à efetivação no projeto Banco Digio, domínio de Python/GCP e entrega em sistemas multiagente.',
-          en: 'Reserved space for a recommendation from a 2RP Net lead or teammate — highlighting your fast promotion from intern to full-time on the Banco Digio project, Python/GCP skills, and multi-agent delivery.',
+          pt: 'Espaço reservado para recomendação de liderança ou colega da 2RP Net — destacando sua evolução rápida do estágio à efetivação, domínio de Python/GCP e entrega em sistemas multiagente.',
+          en: 'Reserved space for a recommendation from a 2RP Net lead or teammate — highlighting your fast promotion from intern to full-time, Python/GCP skills, and multi-agent delivery.',
         },
         author: 'Liderança / Squad 2RP Net',
         role: { pt: 'Recomendação (Substituir pelo LinkedIn)', en: 'Recommendation (Replace from LinkedIn)' },
-        company: '2RP Net · Banco Digio',
+        company: '2RP Net',
         isPlaceholder: true,
       },
       {
