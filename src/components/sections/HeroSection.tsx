@@ -52,14 +52,6 @@ export const HeroSection: React.FC = () => {
             <MagneticButton href="#contact" variant="primary">
               {hero.ctaPrimary[language]}
             </MagneticButton>
-
-            <MagneticButton
-              href={profile.cvUrl}
-              variant="secondary"
-              download="Gustavo-Martinez-Tucci-CV.pdf"
-            >
-              {hero.ctaSecondary[language]}
-            </MagneticButton>
           </div>
         </motion.div>
 
